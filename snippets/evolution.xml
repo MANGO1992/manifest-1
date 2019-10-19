@@ -18,7 +18,7 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="evo" />
-  <project path="frameworks/base" name="frameworks_base" remote="evo" />
+  <project path="frameworks/base" name="frameworks_base" remote="evo" revision="fod" />
   <project path="frameworks/native" name="frameworks_native" remote="evo" />
   <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims" remote="evo" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="evo" />
@@ -39,12 +39,12 @@
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="evo" />
-  <project path="manifest" name="manifest" remote="evo" />
+  <project path="manifest" name="manifest" remote="evo" revision="fod" />
   <project path="vendor/aosp" name="vendor_aosp" remote="evo" />
   <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="evo" />
 
   <!-- Hardware repos -->  
-  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="evo" />
+  <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="evo" revision="fod" />
 
   <!-- Packages repos -->
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="evo" />
